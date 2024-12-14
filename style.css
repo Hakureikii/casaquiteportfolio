@@ -2,7 +2,12 @@
    padding: 0;
    margin: 0;
 }
-
+.lawas {
+   background-image: url(img/v859-katie-08.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
 .link {
    width: 100%;
    display: flex;
@@ -72,8 +77,9 @@
 
 .text p {
    font-size: 19px;
-   font-family: "Poppins", sans-serif;
+   font-family: "Krona One", sans-serif;
    padding: 70px 70px 0 0;
+   text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
 }
 
 .socmed {
@@ -125,4 +131,158 @@
    padding: 10px 0 0;
    font-family: "Poppins", sans-serif;
    font-size: 13px;
+}
+
+.a_head {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+#ABOUT {
+   background-image: url(img/5184015.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 20px 0 0 0;
+   padding-bottom: 50px;
+   text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.a_left {
+   width: 15%;
+}
+
+.a_head h1 {
+   padding: 30px 0;
+   color: white;
+   font-size: 50px;
+   font-family: "Orbitron", sans-serif;
+}
+
+.a_logo {
+   background-image: url(img/logo.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 15%;
+}
+
+.a_container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.a_body {
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.profile {
+   background-color: aliceblue;
+   background-image: url(img/468206562_543210058586513_2846213766633669465_n.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 450px;
+   width: 45%;
+   border-radius: 400px;
+}
+
+.info {
+   width: 50%;
+   color: white;
+}
+
+.info h1 {
+   padding-top: 30px;
+   font-size: 35px;
+   font-family: "Krona One", sans-serif;
+}
+
+.info h5 {
+   font-family: "Krona One", sans-serif;
+   font-size: 22px;
+   padding-bottom: 20px;
+}
+
+.info p {
+   font-size: 19px;
+   font-family: "Kufam", sans-serif;
+}
+
+.p_head {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.p_head h1 {
+   color: #010105;
+   font-family: "Orbitron", sans-serif;
+   font-size: 50px;
+   padding: 50px 0;
+}
+
+.p_body {
+   background-image: url(img/sl_0210121_40570_20.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 550px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.p_body p {
+   padding-bottom: 20px;
+}
+
+.p_body a {
+   text-decoration: none;
+   color: white;
+}
+
+.calui, .calfunc, .lors {
+   padding-top: 20px;
+   font-size: 18px;
+   font-family: "Orbitron", sans-serif;
+   background-color: #010105;
+   width: 27%;
+   height: 350px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 20px;
+}
+
+.calui p:hover, .calfunc p:hover, .lors p:hover {
+   transition: .5s;
+   font-size: 20px;
+}
+
+.bgcal, .bgcalfunc, .bglors{
+   width: 100%;
+   height: 300px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-radius: 20px;
+}
+
+.bgcal {
+   background-image: url(img/calui.png);
+}
+
+.bgcalfunc {
+   background-image: url(img/calfunc.png);
+}
+
+.bglors {
+   background-image: url(img/valorantform.png);
 }
